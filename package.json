@@ -1,0 +1,15 @@
+{
+  "name": "jet",
+  "version": "1.0.6",
+  "description": "Jet HTML Free  - Bootstrap 5 HTML Multipurpose Admin Dashboard Theme",
+  "type": "module",
+  "devDependencies": {
+    "serve": "^14.2.3"
+  },
+  "scripts": {
+    "dev": "serve ./dist -p 9191"
+  },
+  "author": "Keenthemes",
+  "license": "ISC",
+  "homepage": "https://keenthemes.com/"
+}
