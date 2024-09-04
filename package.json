@@ -4,10 +4,13 @@
   "description": "Jet HTML Free  - Bootstrap 5 HTML Multipurpose Admin Dashboard Theme",
   "type": "module",
   "devDependencies": {
+    "sass": "^1.78.0",
     "serve": "^14.2.3"
   },
   "scripts": {
-    "dev": "serve ./dist -p 9191"
+    "dev": "serve ./dist -p 9191",
+    "css": "sass ./src/sass/style.scss ./dist/assets/css/style.bundle.css",
+    "cssw": "sass ./src/sass/style.scss ./dist/assets/css/style.bundle.css -w --style"
   },
   "author": "Keenthemes",
   "license": "ISC",

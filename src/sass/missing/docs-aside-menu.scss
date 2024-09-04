@@ -1,0 +1,244 @@
+﻿
+.docs-wrapper {
+    background-color: #F5F8FA;
+}
+
+@media (min-width: 992px) {
+    .docs-wrapper {
+        padding-left: 265px;
+    }
+}
+
+@media (min-width: 992px) {
+    .docs-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .docs-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .docs-header .docs-page-title[data-kt-swapper=true] {
+        display: none !important;
+    }
+}
+
+.docs-aside {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 28px 0 rgba(82, 63, 105, 0.025);
+    background-color: #ffffff;
+    padding: 0;
+}
+
+@media (min-width: 992px) {
+    .docs-aside {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 101;
+        overflow: hidden;
+        width: 265px;
+    }
+
+    .docs-aside .docs-aside-logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 25px;
+    }
+
+    .docs-aside .docs-aside-menu {
+        width: 265px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .docs-aside {
+        display: none;
+    }
+
+    .docs-aside .docs-aside-logo {
+        display: none;
+    }
+}
+
+.docs-aside-menu .menu .menu-item .menu-link,
+.docs-aside-menu .menu .menu-item .menu-content {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link {
+    padding-left: calc(0.75rem + 25px);
+}
+
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link {
+    padding-left: calc(1.5rem + 25px);
+}
+
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link {
+    padding-left: calc(2.25rem + 25px);
+}
+
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link {
+    padding-left: calc(3rem + 25px);
+}
+
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link {
+    padding-left: 0.75rem;
+    padding-right: 0;
+}
+
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link {
+    padding-left: calc(1.5rem);
+    padding-right: 0;
+}
+
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link {
+    padding-left: calc(2.25rem);
+    padding-right: 0;
+}
+
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-item > .menu-link,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-content,
+.menu-fit .docs-aside-menu .menu .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-sub:not([data-popper-placement]) > .menu-inner > .menu-item > .menu-link {
+    padding-left: calc(3rem);
+    padding-right: 0;
+}
+
+.docs-aside-menu .menu-item {
+    padding: 0;
+}
+
+.docs-aside-menu .menu-item .menu-link {
+    font-weight: 500;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.docs-aside-menu .menu-item .menu-icon {
+    justify-content: flex-start;
+}
+
+.card.card-docs {
+    background-color: #ffffff;
+    border: 0;
+}

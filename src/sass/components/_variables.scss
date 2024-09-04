@@ -1,3 +1,5 @@
+@use "sass:math";
+
 //
 // Global variables for Bootstrap customization.
 // To override any Bootstrap variable safely you can use _variables.demo.scss
@@ -467,7 +469,8 @@ $font-sizes: (
     5tx: $font-size-base * 5.75     // 74.75px
 ) !default;
 
-$headings-margin-bottom:                            $spacer / 2 !default;
+$headings-margin-bottom:                            math.div($spacer , 2) !default;
+
 $headings-font-family:                              null !default;
 $headings-font-style:                               null !default;
 $headings-font-weight:                              $font-weight-bolder !default;

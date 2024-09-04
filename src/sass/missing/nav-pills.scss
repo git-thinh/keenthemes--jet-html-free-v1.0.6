@@ -1,0 +1,80 @@
+﻿
+.nav.nav-pills.nav-pills-custom .show > .nav-link,
+.nav.nav-pills.nav-pills-custom .nav-link {
+    border: 1px dashed #E4E6EF;
+    border-radius: 12px;
+}
+
+    .nav.nav-pills.nav-pills-custom .show > .nav-link.nav-link-border-solid,
+    .nav.nav-pills.nav-pills-custom .nav-link.nav-link-border-solid {
+        border: 3px solid #E4E6EF;
+    }
+
+        .nav.nav-pills.nav-pills-custom .show > .nav-link.nav-link-border-solid.active,
+        .nav.nav-pills.nav-pills-custom .nav-link.nav-link-border-solid.active {
+            border: 3px solid #00B2FF;
+        }
+
+    .nav.nav-pills.nav-pills-custom .show > .nav-link .nav-icon img,
+    .nav.nav-pills.nav-pills-custom .nav-link .nav-icon img {
+        width: 30px;
+        transition: color 0.2s ease, background-color 0.2s ease;
+    }
+
+        .nav.nav-pills.nav-pills-custom .show > .nav-link .nav-icon img.default,
+        .nav.nav-pills.nav-pills-custom .nav-link .nav-icon img.default {
+            display: inline-block;
+        }
+
+        .nav.nav-pills.nav-pills-custom .show > .nav-link .nav-icon img.active,
+        .nav.nav-pills.nav-pills-custom .nav-link .nav-icon img.active {
+            display: none;
+        }
+
+    .nav.nav-pills.nav-pills-custom .show > .nav-link.active,
+    .nav.nav-pills.nav-pills-custom .nav-link.active {
+        background-color: transparent;
+        border: 1px solid #E4E6EF;
+        transition-duration: 1ms;
+        position: relative;
+    }
+
+        .nav.nav-pills.nav-pills-custom .show > .nav-link.active .nav-text,
+        .nav.nav-pills.nav-pills-custom .nav-link.active .nav-text {
+            color: #3F4254 !important;
+            transition: color 0.2s ease, background-color 0.2s ease;
+        }
+
+        .nav.nav-pills.nav-pills-custom .show > .nav-link.active .bullet-custom,
+        .nav.nav-pills.nav-pills-custom .nav-link.active .bullet-custom {
+            display: block;
+        }
+
+    .nav.nav-pills.nav-pills-custom .show > .nav-link .bullet-custom,
+    .nav.nav-pills.nav-pills-custom .nav-link .bullet-custom {
+        display: none;
+    }
+
+.nav.nav-pills.nav-pills-custom.nav-pills-active-custom .nav-item .nav-link:not(:active) span:nth-child(1) {
+    color: #B5B5C3;
+}
+
+.nav.nav-pills.nav-pills-custom.nav-pills-active-custom .nav-item .nav-link:not(:active) span:nth-child(2) {
+    color: #3F4254;
+}
+
+.nav.nav-pills.nav-pills-custom.nav-pills-active-custom .nav-item .nav-link:hover span:nth-child(1) {
+    color: white !important;
+}
+
+.nav.nav-pills.nav-pills-custom.nav-pills-active-custom .nav-item .nav-link:hover span:nth-child(2) {
+    color: white !important;
+}
+
+.nav.nav-pills.nav-pills-custom.nav-pills-active-custom .nav-item .nav-link.active span:nth-child(1) {
+    color: white !important;
+}
+
+.nav.nav-pills.nav-pills-custom.nav-pills-active-custom .nav-item .nav-link.active span:nth-child(2) {
+    color: white !important;
+}
